@@ -1,5 +1,5 @@
 function home(){
-    return <div>Teste de site</div>
+    return <div>Eu te amo xuxu</div>
 }
 
 export default home
