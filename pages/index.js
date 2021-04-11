@@ -1,5 +1,7 @@
-function home(){
-    return <div>Eu te amo xuxu</div>
-}
+<div>Eu te amo xuxu</div>
 
-export default home
+//function home(){
+//    return 
+//}
+
+//export default home
