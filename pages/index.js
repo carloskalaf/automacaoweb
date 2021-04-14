@@ -1,6 +1,8 @@
-
+import '../index.css'
 function home(){
-    return  <h2>Automação Web</h2>
+    return  (
+    <div classname='teste'>Automação Web</div>
+    )
 
 }
 
