@@ -1,7 +1,7 @@
-import '../index.css'
+
 function home(){
     return  (
-    <div>Automação Web</div>
+    <div>Automação Web teste</div>
     )
 
 }
