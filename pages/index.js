@@ -1,6 +1,6 @@
 
 function home(){
-    return  <div>Eu te amo xuxu</div>
+    return  <h2>Automação Web</h2>
 
 }
 
