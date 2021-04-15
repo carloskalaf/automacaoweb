@@ -4,25 +4,30 @@ import image from 'next/image'
 
 function home(){
     return  (
-
+        <div>
+            <video autoPlay loop muted>
+    <source src='https://ri.profarma.com.br/wp-content/themes/mziq_profarma_ri/video/Profarma.mp4' type='video/mp4'></source>
+    </video>
         <div className='login'>
-        <img src='.\logo-profarma.png' ></img>
-        <h1>Automação Web teste</h1>
+            <div className='logo'>
+                <img src='https://www.profarma.com.br/sites/default/files/arquivos/logo_profarma.png' alt='logo-profarma' width="220"></img>
+            </div>
+        <h1>Automação</h1>
         <div className='buttons'>
             
-                <input type="text"  name="login"/>
-                <input type="password" name="password"/>
-                <input type="submit" name="acao" value="logar"/>
+                <div className='txtLogin'><input type="text"  name="login"/></div>
+                <div className='txtPass'><input type="password" name="password"/></div>
+                <div className='BtnSubmit'><input type="submit" name="acao" value="LOGIN"/></div>
             
             </div>
-    <div class='video-container'>
-        <video  autoPlay loop muted>
             
-        </video>
-    </div>
-
-    </div>
     
+    </div>
+        </div>
+        
+
+    
+
     
     )
 
